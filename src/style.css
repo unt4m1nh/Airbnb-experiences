@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:wght@100&display=swap');
+
+body {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    position: absolute;
+    width: 550px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.gray {
+    color: #918E9B;
+    margin-left: 2px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.logo {
+    position: absolute;
+    width: 82.02px;
+    height: 25.35px;
+    left: 30px;
+    top: 22px;
+}
+
+.hero {
+    position: absolute;
+    width: 550px;
+    height: 783px;
+    top: 70px;
+    left: 0px;
+}
+
+.heroImg {
+    position: absolute;
+    width: 395.91px;
+    height: 232px;
+    left: 77px;
+    top: 26px;
+}
+
+.main-title {
+    position: absolute;
+    width: 347px;
+    height: 40px;
+    left: 36px;
+    top: 270px;
+
+    font-family: 'Poppins', sans-serif;
+    ;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 110%;
+
+    color: #000000;
+
+}
+
+.main-para {
+    position: absolute;
+    width: 300px;
+    height: 56px;
+    left: 36px;
+    top: 342px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 110%;
+
+
+    color: #222222;
+
+}
+
+.cards--holder {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+ 
+
+    top: 521px;
+    margin-left: 37px;
+    gap: 18px;
+
+
+}
+
+
+.card--photo {
+    justify-content: space-between;
+    max-width: 176px;
+}
+
+.card--stats {
+    position: absolute;
+    justify-content: space-between;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+}
+
+.card--title1 {
+    margin-top: 17px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+}
+
+.card--price1 {
+    margin-top: 8px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 110%;
+}
